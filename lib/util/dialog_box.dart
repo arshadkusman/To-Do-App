@@ -24,7 +24,7 @@ class _DialogBoxState extends State<DialogBox> {
   void _handleSave() {
     if (_formKey.currentState!.validate()) {
       widget.onSave();
-      Navigator.of(context).pop();
+      
     }
   }
 
